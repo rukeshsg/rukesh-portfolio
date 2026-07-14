@@ -207,4 +207,12 @@ http://localhost:3000
 
 Made with ❤️ by **Rukesh SG**
 
+---
+
+## License
+
+This project is intended for personal portfolio purposes.
+
+Feel free to explore the code for learning and inspiration.
+
 </div>
