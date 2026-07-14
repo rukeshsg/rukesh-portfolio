@@ -50,17 +50,7 @@ export default function About() {
               </ul>
             </FadeIn>
 
-            <FadeIn
-              delay={0.28}
-              className="rounded-sm border border-ink-600 bg-ink-900 p-6"
-            >
-              <p className="eyebrow">What Defines Me</p>
-              <ul className="mt-4 space-y-3 text-sm leading-relaxed text-paper-200">
-                {about.traits.map((trait) => (
-                  <li key={trait}>{trait}</li>
-                ))}
-              </ul>
-            </FadeIn>
+
           </div>
         </div>
       </div>

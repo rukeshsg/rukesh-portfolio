@@ -25,7 +25,7 @@ export interface Certification {
   credentialId?: string;
   credentialUrl?: string;
   image: string;
-  description: string;
+  description?: string;
   skills: string[];
 }
 
@@ -66,7 +66,6 @@ export interface About {
   paragraphs: string[];
   interests: string[];
   careerObjective: string;
-  traits: string[];
 }
 
 export interface Meta {

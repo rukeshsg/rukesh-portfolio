@@ -24,7 +24,7 @@ export default function Skills() {
           description="Grouped by category and shown without scores, percentages, or rankings."
         />
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,18rem),1fr))] items-start gap-5">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,18rem),1fr))] gap-5">
           {skills.map((group, i) => (
             <FadeIn
               key={group.category}

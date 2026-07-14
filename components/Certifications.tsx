@@ -40,9 +40,6 @@ export default function Certifications() {
                   {cert.issueDate}
                 </p>
 
-                <p className="mt-4 text-sm leading-relaxed text-paper-200">
-                  {cert.description}
-                </p>
 
                 <ul className="mt-4 flex flex-wrap gap-2">
                   {cert.skills.map((skill) => (

@@ -38,32 +38,30 @@
   },
   "about": {
     "paragraphs": [
-      "I am an undergraduate Computer Science Engineering (Artificial Intelligence & Machine Learning) student with a strong interest in Artificial Intelligence, Machine Learning, and Data Science. I enjoy building practical, end-to-end solutions that solve real-world problems while continuously improving my technical knowledge through projects, certifications, and hands-on learning.",
-      "My primary areas of interest include Machine Learning, Deep Learning, Natural Language Processing (NLP), Retrieval-Augmented Generation (RAG), and Data Science. I believe in learning by building, which has led me to develop AI-powered applications and complete industry-recognized certifications to strengthen both my theoretical understanding and practical skills.",
-      "I am currently focused on expanding my expertise in AI technologies, creating impactful projects, and seeking internship opportunities where I can contribute, collaborate, and continue growing as an aspiring AI & Machine Learning Engineer."
+      "I am a Computer Science Engineering undergraduate specializing in Artificial Intelligence & Machine Learning, passionate about building intelligent software that solves real-world problems. My interests span Artificial Intelligence, Machine Learning, Deep Learning, and Data Science, with a focus on creating practical, data-driven solutions.",
+      "I enjoy developing scalable applications, exploring modern AI technologies, and continuously enhancing my problem-solving and software development skills through hands-on projects.",
+      "I am currently seeking internship opportunities where I can contribute, learn, and grow as an aspiring AI, Machine Learning, and Data Science Engineer."
     ],
     "interests": [
-      "Artificial Intelligence (AI)",
+      "Artificial Intelligence",
       "Machine Learning",
       "Deep Learning",
       "Data Science",
-      "Natural Language Processing (NLP)",
-      "Retrieval-Augmented Generation (RAG)",
-      "Predictive Modeling"
+      "Generative AI",
+      "Computer Vision",
+      "Predictive Analytics"
     ],
-    "careerObjective": "To build intelligent software solutions that create real-world impact while continuously learning and growing as an AI & Machine Learning Engineer.",
-    "traits": [
-      "Passionate about solving real-world problems using AI.",
-      "Strong believer in learning through practical projects.",
-      "Continuously improving through certifications and hands-on experience.",
-      "Focused on writing clean, scalable, and maintainable solutions.",
-      "Open to internship opportunities in AI, Machine Learning, and Data Science."
-    ]
+    "careerObjective": "To build intelligent, data-driven software solutions that create real-world impact while continuously learning, collaborating, and growing as an AI, Machine Learning, and Data Science Engineer."
   },
   "skills": [
     {
       "category": "Programming Languages",
-      "items": ["Python", "Java", "SQL"]
+      "items": [
+        "Python",
+        "Java",
+        "C",
+        "SQL"
+      ]
     },
     {
       "category": "Artificial Intelligence & Machine Learning",
@@ -85,7 +83,7 @@
         "Exploratory Data Analysis (EDA)",
         "Data Cleaning",
         "Data Visualization",
-        "Dashboard Development"
+        "Predictive Modeling"
       ]
     },
     {
@@ -95,17 +93,29 @@
         "Pandas",
         "Scikit-learn",
         "TensorFlow",
+        "FAISS",
+        "Flask",
+        "React",
         "Matplotlib",
         "Streamlit"
       ]
     },
     {
       "category": "Development Tools",
-      "items": ["Git", "GitHub", "VS Code", "Jupyter Notebook"]
+      "items": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Jupyter Notebook"
+      ]
     },
     {
       "category": "Databases",
-      "items": ["SQL", "Relational Databases", "DBMS"]
+      "items": [
+        "SQL",
+        "SQLite",
+        "Relational Databases"
+      ]
     }
   ],
   "highlightedSkills": [
@@ -125,7 +135,7 @@
       "featured": true,
       "name": "Serenity",
       "category": "Featured Project - Artificial Intelligence - Machine Learning",
-      "summary": "Serenity is an AI-powered mental health chatbot that combines Machine Learning, Natural Language Processing, and Retrieval-Augmented Generation (RAG) to deliver context-aware and supportive conversations. The system incorporates intelligent intent detection, crisis awareness, and semantic knowledge retrieval to provide safe, empathetic, and meaningful responses.",
+      "summary": "Serenity is an AI-powered mental health chatbot that combines Machine Learning, Natural Language Processing, and Retrieval-Augmented Generation (RAG) to deliver context-aware and supportive conversations. It features a custom BiLSTM intent engine for emotional classification, hybrid RAG retrieval using FAISS and BM25 for therapeutically grounded responses, a multi-stage crisis management system with emergency SMS alerts, secure passwordless authentication, and a real-time analytics dashboard — all designed to provide safe, empathetic, and meaningful mental health support.",
       "highlights": [
         "Machine Learning-based Intent Classification",
         "BiLSTM Intent Detection",
@@ -195,7 +205,12 @@
         "Community Interaction",
         "REST APIs"
       ],
-      "tech": ["Next.js", "MongoDB", "NextAuth", "REST APIs"],
+      "tech": [
+        "Next.js",
+        "MongoDB",
+        "NextAuth",
+        "REST APIs"
+      ],
       "githubUrl": "https://github.com/rukeshsg/Knovera-Community-Blogging-And-Knowledge-Sharing-Platform",
       "liveUrl": "https://knovera-community-blogging-and-know.vercel.app",
       "image": "/assets/projects/knovera.png",
@@ -210,16 +225,11 @@
       "issueDate": "July 2026",
       "credentialId": "CD3V5NLR0GA8",
       "image": "/assets/certificates/ibm-data-science-professional.png",
-      "description": "Completed IBM's comprehensive Data Science Professional Certificate through Coursera, gaining hands-on experience in Python, SQL, data analysis, exploratory data analysis, data visualization, machine learning, and end-to-end data science workflows. The program included multiple hands-on labs and a real-world capstone project.",
       "skills": [
         "Data Science",
-        "Data Analysis",
         "Machine Learning",
-        "Supervised Learning",
-        "Exploratory Data Analysis",
-        "Data Visualization",
-        "SQL",
-        "Database Management System (DBMS)"
+        "Data Analysis",
+        "SQL"
       ],
       "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/certificate/CD3V5NLR0GA8"
     },
@@ -230,7 +240,6 @@
       "issueDate": "July 2026",
       "credentialId": "ZS3QS2TKLFDU",
       "image": "/assets/certificates/ibm-machine-learning-python.png",
-      "description": "Completed IBM's Machine Learning with Python course, building supervised and unsupervised machine learning models using Scikit-learn. Learned model evaluation, feature engineering, clustering, classification, dimensionality reduction, and predictive modeling through practical projects.",
       "skills": [
         "Machine Learning",
         "Supervised Learning",
@@ -245,8 +254,9 @@
       "issueDate": "October 2025",
       "credentialId": "NPTEL25CS110S175003579",
       "image": "/assets/certificates/nptel-programming-java.png",
-      "description": "Completed the NPTEL Programming in Java certification with Elite status (83%). Covered object-oriented programming, exception handling, collections framework, multithreading, and file handling through weekly programming assignments and a proctored examination.",
-      "skills": ["Java"],
+      "skills": [
+        "Java"
+      ],
       "credentialUrl": "https://nptel.ac.in/noc/E_Certificate/NPTEL25CS110S17500357910965481"
     },
     {
@@ -255,8 +265,10 @@
       "organization": "University of Helsinki",
       "issueDate": "July 2025",
       "image": "/assets/certificates/elements-of-ai.png",
-      "description": "Completed the internationally recognized Elements of AI program, developing a strong understanding of artificial intelligence, machine learning, neural networks, algorithmic decision-making, and the practical impact of AI in real-world applications.",
-      "skills": ["Machine Learning", "Data Science"],
+      "skills": [
+        "Machine Learning",
+        "Data Science"
+      ],
       "credentialUrl": "https://certificates.mooc.fi/validate/obhvvvvwomf"
     },
     {
@@ -266,7 +278,6 @@
       "issueDate": "May 2026",
       "credentialId": "THX-MAY126-1851",
       "image": "/assets/certificates/virtual-data-science-training-program.png",
-      "description": "Completed a project-oriented virtual training program focused on practical data science workflows, including exploratory data analysis, data visualization, data preprocessing, and foundational machine learning concepts using real-world datasets.",
       "skills": [
         "Exploratory Data Analysis",
         "Data Science",
@@ -280,8 +291,10 @@
       "organization": "Vel Tech HighTech Dr. Rangarajan Dr. Sakunthala Engineering College",
       "issueDate": "March 2026",
       "image": "/assets/certificates/machine-learning-and-its-applications.png",
-      "description": "Completed a value-added course on Machine Learning and its Applications with emphasis on practical implementation, data preprocessing, exploratory data analysis, model development, and predictive analytics using real-world datasets.",
-      "skills": ["Machine Learning", "Data Science"]
+      "skills": [
+        "Machine Learning",
+        "Data Science"
+      ]
     }
   ],
   "badges": [
