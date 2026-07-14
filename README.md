@@ -1,79 +1,177 @@
-# Rukesh SG — Portfolio
+# RUKESH SG – Portfolio
 
-A premium, minimal portfolio built with Next.js 14 (App Router), TypeScript,
-Tailwind CSS, and Framer Motion.
+A modern portfolio showcasing my journey in **Artificial Intelligence, Machine Learning, and Data Science**. This website highlights my featured projects, certifications, digital badges, technical skills, education, and resume in a clean, responsive interface.
 
-## Design language
+## Live Demo
 
-- **Palette** — warm near-black (`ink`), off-white paper text, and a single
-  restrained amber "signal" accent used for emphasis, links, and the loss
-  curve in the hero.
-- **Type** — Fraunces (display/serif) for the name and pull quotes, Inter for
-  body copy, JetBrains Mono for eyebrows, labels, and section markers
-  (`// 01 — About`), echoing code comments.
-- **Signature element** — a small animated training-loss sparkline in the
-  hero, a quiet nod to iterative learning rather than a decorative flourish.
-- **Motion** — smooth scroll, scroll-triggered fade-ins, card lift on hover,
-  navbar blur on scroll, and a faint cursor-following glow (desktop only,
-  respects `prefers-reduced-motion`). Nothing else moves.
+> Add your deployed portfolio URL here after deployment.
 
-## Getting started
+```
+https://your-portfolio-link.com
+```
+
+---
+
+## Features
+
+- Modern responsive design
+- Dark & Light mode
+- AI-powered portfolio assistant
+- Featured AI & Machine Learning projects
+- Professional certifications
+- Digital badges
+- Education timeline
+- Resume download
+- Contact section
+- Smooth animations and navigation
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### UI
+
+- Framer Motion
+- Lucide Icons
+
+### Deployment
+
+- Vercel
+
+---
+
+## Featured Projects
+
+### Serenity
+
+An AI-powered mental health chatbot combining:
+
+- Machine Learning
+- Natural Language Processing
+- Retrieval-Augmented Generation (RAG)
+- Crisis Detection
+- Intent Classification
+- Analytics Dashboard
+
+---
+
+### Applied Data Science & Machine Learning
+
+A collection of end-to-end data science projects covering:
+
+- Exploratory Data Analysis
+- Data Cleaning
+- Data Visualization
+- Machine Learning
+- Interactive Dashboards
+
+---
+
+### Knovera
+
+An AI-assisted blogging and knowledge-sharing platform featuring:
+
+- AI Writing Assistant
+- Grammar Correction
+- Content Summarization
+- Smart Passage Regeneration
+- Secure Authentication
+
+---
+
+## Certifications
+
+Highlights include:
+
+- IBM Data Science Professional Certificate
+- Applied Data Science Capstone
+- Machine Learning with Python
+- Data Analysis with Python
+- Databases and SQL for Data Science
+- Generative AI Essentials for Data Science
+
+---
+
+## Project Structure
+
+```text
+.
+├── app/
+├── components/
+├── assets/
+│   ├── profile.jpg
+│   ├── resume.pdf
+│   ├── favicon.png
+│   ├── projects/
+│   ├── certificates/
+│   ├── badges/
+│   └── education/
+├── public/
+└── README.md
+```
+
+---
+
+## Running Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/rukeshsg/rukesh-portfolio.git
+```
+
+Go into the project
+
+```bash
+cd rukesh-portfolio
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Run the development server
+
+```bash
 npm run dev
 ```
 
-Open http://localhost:3000.
-
-## Editing your content
-
-All personal content — name, bio, skills, projects, certifications, badges,
-education, and links — lives in one file:
+Open:
 
 ```
-data/portfolio.json
+http://localhost:3000
 ```
 
-Update that file and the site (including the AI assistant) updates
-automatically. You should not need to touch component code to change
-content.
+---
 
-## Adding your real assets
+## Contact
 
-Drop files into `public/assets/` following the paths already referenced in
-`data/portfolio.json` (see `public/assets/README.txt`), or edit the JSON
-paths to match your own filenames:
+**Rukesh SG**
 
-- Profile photo, resume PDF
-- Project screenshots (`public/assets/projects/`)
-- Certificate logos + preview images (`public/assets/certs/`)
-- Badge images (`public/assets/badges/`)
-- Education institution logos (`public/assets/education/`)
-- `public/og-image.png` — 1200×630 social share preview
+Artificial Intelligence & Machine Learning Student
 
-## The AI assistant
+GitHub:
+https://github.com/rukeshsg
 
-The floating assistant in the bottom-right corner is intentionally simple
-and fully local: it does keyword matching against `data/portfolio.json` in
-the browser, so it only ever answers questions about this portfolio (no
-external API calls, no general knowledge). See `components/AIAssistant.tsx`
-if you'd like to extend the matching logic or wire it to a real LLM later.
+LinkedIn:
+(Add your LinkedIn profile)
 
-## SEO
+Email:
+(Add your email)
 
-Metadata, Open Graph tags, Twitter cards, a JSON-LD `Person` schema,
-`sitemap.xml`, and `robots.txt` are all generated from `meta` and `profile`
-in `data/portfolio.json` — update the values there (especially `siteUrl`)
-before deploying.
+---
 
-## Deploying
+## License
 
-This project is ready to deploy on [Vercel](https://vercel.com):
+This project is intended for personal portfolio purposes.
 
-```bash
-npm run build
-```
-
-Push to a Git repository and import it in Vercel, or run `vercel` from the
-project root.
+Feel free to explore the code for learning and inspiration.
