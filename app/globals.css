@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-ink-950: 248 247 242;
+    --color-ink-900: 255 253 248;
+    --color-ink-800: 241 238 229;
+    --color-ink-700: 216 209 194;
+    --color-ink-600: 183 172 153;
+    --color-ink-500: 109 102 91;
+    --color-paper-100: 20 22 24;
+    --color-paper-200: 46 48 50;
+    --color-signal: 143 94 18;
+    --color-signal-soft: 180 123 33;
+    --color-signal-dim: 117 88 45;
+    --color-mist: 74 82 80;
+    color-scheme: light;
+  }
+
+  .dark {
+    --color-ink-950: 14 15 18;
+    --color-ink-900: 19 20 24;
+    --color-ink-800: 26 28 33;
+    --color-ink-700: 36 38 45;
+    --color-ink-600: 62 66 76;
+    --color-ink-500: 91 96 107;
+    --color-paper-100: 246 245 241;
+    --color-paper-200: 229 227 219;
+    --color-signal: 217 164 65;
+    --color-signal-soft: 232 192 119;
+    --color-signal-dim: 171 138 72;
+    --color-mist: 174 181 178;
+    color-scheme: dark;
+  }
+
+  ::selection {
+    background-color: rgb(var(--color-signal));
+    color: rgb(var(--color-ink-950));
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background: rgb(var(--color-ink-950));
+  }
+
+  body {
+    @apply bg-ink-950 text-paper-100 font-body antialiased transition-colors duration-300;
+    font-feature-settings: "ss01" on, "ss02" on;
+    font-size: 16px;
+    line-height: 1.65;
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+
+  a,
+  button {
+    @apply outline-none;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  [tabindex]:focus-visible {
+    @apply ring-2 ring-signal ring-offset-2 ring-offset-ink-950 rounded-sm;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(var(--color-ink-950));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--color-ink-600));
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--color-ink-500));
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-xs tracking-widest2 uppercase text-signal;
+  }
+
+  .section-shell {
+    @apply mx-auto w-full max-w-content px-6 sm:px-8 lg:px-10;
+  }
+
+  .hairline {
+    @apply border-ink-700;
+  }
+
+  .card-lift {
+    @apply transition-all duration-300 ease-smooth;
+  }
+
+  .card-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 45px rgb(var(--color-ink-950) / 0.14);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

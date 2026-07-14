@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "siteUrl": "https://rukeshsg.dev",
+    "title": "RUKESH SG | AI & Machine Learning Student",
+    "description": "Portfolio of RUKESH SG, a Computer Science Engineering (Artificial Intelligence & Machine Learning) student building practical Machine Learning systems, Data Science solutions, and AI-powered applications.",
+    "ogImage": "/assets/og-image.png",
+    "keywords": [
+      "AI",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data Science",
+      "Python",
+      "TensorFlow",
+      "Deep Learning",
+      "Computer Science Engineering",
+      "AI Student",
+      "Machine Learning Engineer",
+      "Data Analyst",
+      "Portfolio",
+      "RAG",
+      "Natural Language Processing"
+    ]
+  },
+  "profile": {
+    "name": "RUKESH SG",
+    "title": "AI & Machine Learning Student",
+    "degree": "Bachelor of Engineering",
+    "department": "Computer Science Engineering (Artificial Intelligence & Machine Learning)",
+    "currentStatus": "Undergraduate Student",
+    "heroDescription": "Building machine learning systems and data science solutions that solve real-world problems.",
+    "aboutText": "I am an undergraduate Computer Science Engineering (Artificial Intelligence & Machine Learning) student with a strong interest in Artificial Intelligence, Machine Learning, and Data Science. I enjoy building practical, end-to-end solutions that solve real-world problems while continuously improving my technical knowledge through projects, certifications, and hands-on learning.",
+    "profilePhoto": "/assets/profile.jpg",
+    "resumeUrl": "/assets/resume.pdf",
+    "email": "rukeshsg0001@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rukesh-s-g-6531bb3b7/",
+    "github": "https://github.com/rukeshsg",
+    "location": "India"
+  },
+  "about": {
+    "paragraphs": [
+      "I am an undergraduate Computer Science Engineering (Artificial Intelligence & Machine Learning) student with a strong interest in Artificial Intelligence, Machine Learning, and Data Science. I enjoy building practical, end-to-end solutions that solve real-world problems while continuously improving my technical knowledge through projects, certifications, and hands-on learning.",
+      "My primary areas of interest include Machine Learning, Deep Learning, Natural Language Processing (NLP), Retrieval-Augmented Generation (RAG), and Data Science. I believe in learning by building, which has led me to develop AI-powered applications and complete industry-recognized certifications to strengthen both my theoretical understanding and practical skills.",
+      "I am currently focused on expanding my expertise in AI technologies, creating impactful projects, and seeking internship opportunities where I can contribute, collaborate, and continue growing as an aspiring AI & Machine Learning Engineer."
+    ],
+    "interests": [
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "Deep Learning",
+      "Data Science",
+      "Natural Language Processing (NLP)",
+      "Retrieval-Augmented Generation (RAG)",
+      "Predictive Modeling"
+    ],
+    "careerObjective": "To build intelligent software solutions that create real-world impact while continuously learning and growing as an AI & Machine Learning Engineer.",
+    "traits": [
+      "Passionate about solving real-world problems using AI.",
+      "Strong believer in learning through practical projects.",
+      "Continuously improving through certifications and hands-on experience.",
+      "Focused on writing clean, scalable, and maintainable solutions.",
+      "Open to internship opportunities in AI, Machine Learning, and Data Science."
+    ]
+  },
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": ["Python", "Java", "SQL"]
+    },
+    {
+      "category": "Artificial Intelligence & Machine Learning",
+      "items": [
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing (NLP)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Feature Engineering",
+        "Model Evaluation"
+      ]
+    },
+    {
+      "category": "Data Science",
+      "items": [
+        "Data Analysis",
+        "Exploratory Data Analysis (EDA)",
+        "Data Cleaning",
+        "Data Visualization",
+        "Dashboard Development"
+      ]
+    },
+    {
+      "category": "Libraries & Frameworks",
+      "items": [
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "TensorFlow",
+        "Matplotlib",
+        "Streamlit"
+      ]
+    },
+    {
+      "category": "Development Tools",
+      "items": ["Git", "GitHub", "VS Code", "Jupyter Notebook"]
+    },
+    {
+      "category": "Databases",
+      "items": ["SQL", "Relational Databases", "DBMS"]
+    }
+  ],
+  "highlightedSkills": [
+    "Python",
+    "Machine Learning",
+    "Data Science",
+    "Deep Learning",
+    "Natural Language Processing",
+    "Retrieval-Augmented Generation (RAG)",
+    "TensorFlow",
+    "Scikit-learn",
+    "Data Analysis"
+  ],
+  "projects": [
+    {
+      "id": "serenity",
+      "featured": true,
+      "name": "Serenity",
+      "category": "Featured Project - Artificial Intelligence - Machine Learning",
+      "summary": "Serenity is an AI-powered mental health chatbot that combines Machine Learning, Natural Language Processing, and Retrieval-Augmented Generation (RAG) to deliver context-aware and supportive conversations. The system incorporates intelligent intent detection, crisis awareness, and semantic knowledge retrieval to provide safe, empathetic, and meaningful responses.",
+      "highlights": [
+        "Machine Learning-based Intent Classification",
+        "BiLSTM Intent Detection",
+        "Retrieval-Augmented Generation (RAG)",
+        "Context-aware Conversations",
+        "Crisis Detection & Safety Module",
+        "Analytics Dashboard",
+        "Secure Authentication",
+        "Emergency Support Workflow"
+      ],
+      "tech": [
+        "Python",
+        "TensorFlow",
+        "Scikit-learn",
+        "Flask",
+        "React",
+        "FAISS",
+        "SQLite",
+        "Gemini API",
+        "NLP",
+        "RAG"
+      ],
+      "githubUrl": "https://github.com/rukeshsg/Serenity-Mental-Health-Chatbot",
+      "liveUrl": "https://serenity-ai-2yt3.onrender.com",
+      "image": "/assets/projects/serenity.png",
+      "logo": "/assets/projects/serenity_logo.png"
+    },
+    {
+      "id": "applied-ds-ml",
+      "featured": false,
+      "name": "Applied Data Science & Machine Learning Projects",
+      "category": "Data Science - Machine Learning",
+      "summary": "A curated collection of end-to-end Data Science and Machine Learning projects demonstrating the complete analytics workflow-from data cleaning and exploratory data analysis (EDA) to interactive dashboards, predictive modeling, and model evaluation using real-world datasets.",
+      "highlights": [
+        "Exploratory Data Analysis (EDA)",
+        "Data Cleaning & Preprocessing",
+        "Interactive Streamlit Dashboards",
+        "Data Visualization",
+        "Predictive Modeling",
+        "Model Evaluation"
+      ],
+      "tech": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-learn",
+        "Streamlit"
+      ],
+      "githubUrl": "https://github.com/rukeshsg/Machine-Learning-Projects",
+      "image": "/assets/projects/applied-ds-ml.png"
+    },
+    {
+      "id": "knovera",
+      "featured": false,
+      "name": "Knovera",
+      "category": "AI-Assisted Knowledge Sharing Platform",
+      "summary": "Knovera is an AI-assisted blogging and knowledge-sharing platform that helps users create high-quality content through intelligent writing assistance. It offers grammar correction, content summarization, writing enhancement, smart passage regeneration, secure authentication, intelligent search, and scalable APIs within a modern community platform.",
+      "highlights": [
+        "AI Writing Assistant",
+        "Grammar Correction",
+        "Content Summarization",
+        "Smart Passage Regeneration",
+        "Intelligent Search",
+        "Secure Authentication",
+        "Community Interaction",
+        "REST APIs"
+      ],
+      "tech": ["Next.js", "MongoDB", "NextAuth", "REST APIs"],
+      "githubUrl": "https://github.com/rukeshsg/Knovera-Community-Blogging-And-Knowledge-Sharing-Platform",
+      "liveUrl": "https://knovera-community-blogging-and-know.vercel.app",
+      "image": "/assets/projects/knovera.png",
+      "logo": "/assets/projects/knovera-logo.png"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "ibm-data-science-professional",
+      "name": "IBM Data Science Professional Certificate",
+      "organization": "IBM (Coursera)",
+      "issueDate": "July 2026",
+      "credentialId": "CD3V5NLR0GA8",
+      "image": "/assets/certificates/ibm-data-science-professional.png",
+      "description": "Completed IBM's comprehensive Data Science Professional Certificate through Coursera, gaining hands-on experience in Python, SQL, data analysis, exploratory data analysis, data visualization, machine learning, and end-to-end data science workflows. The program included multiple hands-on labs and a real-world capstone project.",
+      "skills": [
+        "Data Science",
+        "Data Analysis",
+        "Machine Learning",
+        "Supervised Learning",
+        "Exploratory Data Analysis",
+        "Data Visualization",
+        "SQL",
+        "Database Management System (DBMS)"
+      ],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/certificate/CD3V5NLR0GA8"
+    },
+    {
+      "id": "machine-learning-with-python",
+      "name": "Machine Learning with Python",
+      "organization": "IBM (Coursera)",
+      "issueDate": "July 2026",
+      "credentialId": "ZS3QS2TKLFDU",
+      "image": "/assets/certificates/ibm-machine-learning-python.png",
+      "description": "Completed IBM's Machine Learning with Python course, building supervised and unsupervised machine learning models using Scikit-learn. Learned model evaluation, feature engineering, clustering, classification, dimensionality reduction, and predictive modeling through practical projects.",
+      "skills": [
+        "Machine Learning",
+        "Supervised Learning",
+        "Exploratory Data Analysis"
+      ],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/records/ZS3QS2TKLFDU"
+    },
+    {
+      "id": "programming-in-java",
+      "name": "Programming in Java",
+      "organization": "NPTEL (IIT Kharagpur)",
+      "issueDate": "October 2025",
+      "credentialId": "NPTEL25CS110S175003579",
+      "image": "/assets/certificates/nptel-programming-java.png",
+      "description": "Completed the NPTEL Programming in Java certification with Elite status (83%). Covered object-oriented programming, exception handling, collections framework, multithreading, and file handling through weekly programming assignments and a proctored examination.",
+      "skills": ["Java"],
+      "credentialUrl": "https://nptel.ac.in/noc/E_Certificate/NPTEL25CS110S17500357910965481"
+    },
+    {
+      "id": "elements-of-ai",
+      "name": "Elements of AI",
+      "organization": "University of Helsinki",
+      "issueDate": "July 2025",
+      "image": "/assets/certificates/elements-of-ai.png",
+      "description": "Completed the internationally recognized Elements of AI program, developing a strong understanding of artificial intelligence, machine learning, neural networks, algorithmic decision-making, and the practical impact of AI in real-world applications.",
+      "skills": ["Machine Learning", "Data Science"],
+      "credentialUrl": "https://certificates.mooc.fi/validate/obhvvvvwomf"
+    },
+    {
+      "id": "virtual-data-science-training-program",
+      "name": "Virtual Data Science Training Program",
+      "organization": "Thiranex",
+      "issueDate": "May 2026",
+      "credentialId": "THX-MAY126-1851",
+      "image": "/assets/certificates/virtual-data-science-training-program.png",
+      "description": "Completed a project-oriented virtual training program focused on practical data science workflows, including exploratory data analysis, data visualization, data preprocessing, and foundational machine learning concepts using real-world datasets.",
+      "skills": [
+        "Exploratory Data Analysis",
+        "Data Science",
+        "Data Analysis",
+        "Data Visualization"
+      ]
+    },
+    {
+      "id": "machine-learning-and-its-applications",
+      "name": "Machine Learning and its Applications",
+      "organization": "Vel Tech HighTech Dr. Rangarajan Dr. Sakunthala Engineering College",
+      "issueDate": "March 2026",
+      "image": "/assets/certificates/machine-learning-and-its-applications.png",
+      "description": "Completed a value-added course on Machine Learning and its Applications with emphasis on practical implementation, data preprocessing, exploratory data analysis, model development, and predictive analytics using real-world datasets.",
+      "skills": ["Machine Learning", "Data Science"]
+    }
+  ],
+  "badges": [
+    {
+      "id": "ibm-data-science-professional-certificate-v3",
+      "name": "IBM Data Science Professional Certificate V3",
+      "image": "/assets/badges/ibm-data-science-professional-certificate-v3.png"
+    },
+    {
+      "id": "applied-data-science-capstone",
+      "name": "Applied Data Science Capstone",
+      "image": "/assets/badges/applied-data-science-capstone.png"
+    },
+    {
+      "id": "machine-learning-with-python-v2",
+      "name": "Machine Learning With Python V2",
+      "image": "/assets/badges/machine-learning-with-python-v2.png"
+    },
+    {
+      "id": "databases-and-sql-for-data-science",
+      "name": "Databases And SQL For Data Science",
+      "image": "/assets/badges/databases-and-sql-for-data-science.png"
+    },
+    {
+      "id": "data-analysis-with-python",
+      "name": "Data Analysis With Python",
+      "image": "/assets/badges/data-analysis-with-python.png"
+    },
+    {
+      "id": "generative-ai-essentials-for-data-science",
+      "name": "Generative AI Essentials For Data Science",
+      "image": "/assets/badges/generative-ai-essentials-for-data-science.png"
+    }
+  ],
+  "education": [
+    {
+      "id": "vel-tech-hightech",
+      "level": "College",
+      "institution": "Vel Tech HighTech Dr. Rangarajan Dr. Sakunthala Engineering College",
+      "logo": "/assets/education/vel-tech-logo.png",
+      "degree": "Bachelor of Engineering",
+      "department": "Computer Science Engineering (Artificial Intelligence & Machine Learning)",
+      "duration": "2024 - Present",
+      "score": "CGPA: 8.25 / 10"
+    },
+    {
+      "id": "icf-silver-jubilee-school",
+      "level": "Higher Secondary",
+      "institution": "ICF Silver Jubilee Matriculation Higher Secondary School",
+      "logo": "/assets/education/icf-school-logo.png",
+      "degree": "Higher Secondary (12th Grade)",
+      "department": "Computer Science",
+      "duration": "Jun 2023 - Mar 2024",
+      "score": "77.83%"
+    }
+  ]
+}
