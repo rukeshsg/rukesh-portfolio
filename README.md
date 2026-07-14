@@ -163,10 +163,10 @@ GitHub:
 https://github.com/rukeshsg
 
 LinkedIn:
-(Add your LinkedIn profile)
+www.linkedin.com/in/rukesh-s-g-6531bb3b7
 
 Email:
-(Add your email)
+rukeshsg0001@gmail.com
 
 ---
 
