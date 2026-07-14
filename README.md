@@ -7,7 +7,7 @@ A modern portfolio showcasing my journey in **Artificial Intelligence, Machine L
 > Add your deployed portfolio URL here after deployment.
 
 ```
-https://your-portfolio-link.com
+[https://your-portfolio-link.com](https://rukesh-portfolio.vercel.app/)
 ```
 
 ---
